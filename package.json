@@ -1,0 +1,34 @@
+{
+  "name": "bittorrent-location",
+  "version": "1.0.0",
+  "description": "get location of tracker for torrent",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && tap test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chetandhembre/node-bittorrent-location.git"
+  },
+  "author": "ichetandhembre<chetandhembre@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "bittorrent",
+    "tracker",
+    "udp",
+    "p2p",
+    "peer",
+    "location",
+    "bittorrent-location"
+  ],
+  "dependencies": {
+    "bittorrent-udp-tracker": "^1.2.0",
+    "inherits": "^2.0.1",
+    "iplocation": "^2.0.1",
+    "read-torrent": "^1.3.0"
+  },
+  "devDependencies": {
+    "standard": "^4.5.4",
+    "tap": "^1.3.2"
+  }
+}
